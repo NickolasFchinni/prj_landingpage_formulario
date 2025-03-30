@@ -1,6 +1,11 @@
 import "./App.css"
+import AboutUs from "./pages/AboutUs"
+import CardsLast from "./pages/cards"
+import Download from "./pages/Download"
 import Header from "./pages/Header"
 import Home from "./pages/Home"
+import Images from "./pages/Images"
+import Tags from "./pages/Tags"
 
 function App() {
   return (
@@ -10,6 +15,11 @@ function App() {
       </div>
 
       <Home />
+      <AboutUs />
+      <Images />
+      <Download />
+      <Tags />
+      <CardsLast />
     </div>
   )
 }

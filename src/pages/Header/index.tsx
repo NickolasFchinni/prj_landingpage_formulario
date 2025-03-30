@@ -79,9 +79,9 @@ const Header = () => {
             id="menu"
             role="menu"
             className={classNames(
-              "block  w-full right-0 pt-16 bg-[#DFBBFE] z-[1000] h-0 overflow-y-hidden text-[#2D2D2D] font-bold list-disc px-6 text-xl space-y-5",
+              "w-full right-0 pt-16 bg-[#DFBBFE] z-[1000] h-0 overflow-y-hidden text-[#2D2D2D] font-bold list-disc px-6 text-xl space-y-5",
               {
-                "h-[50vh] visible overflow-y-auto": menuOpen,
+                "h-full visible overflow-y-auto": menuOpen,
                 invisible: !menuOpen,
               }
             )}
