@@ -1,4 +1,3 @@
-import React from "react"
 import CardAboutUs from "../../components/CardAboutUs"
 import ImageMontains from "../../assets/image.png"
 import ImageCity from "../../assets/image-1.png"
