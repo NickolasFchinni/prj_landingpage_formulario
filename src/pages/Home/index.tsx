@@ -14,7 +14,7 @@ function Home() {
             faucibus sit scelerisque quis commodo aenean viverra
           </p>
           <AnchorLink href="#quem-somos" className="flex justify-center 2xl:w-2/3 py-6">
-            <img src={Scroll} alt="" className="w-12 md:w-20 md:mt-4" />
+            <img src={Scroll} alt="Imagem para descer para baixo" className="w-12 md:w-20 md:mt-4" />
           </AnchorLink>
         </div>
       </div>

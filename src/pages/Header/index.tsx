@@ -10,7 +10,7 @@ const Header = () => {
   const [scrollingDown, setScrollingDown] = useState(false)
   const [lastScrollTop, setLastScrollTop] = useState(0)
   const delta = 5
-  const navbarHeight = 80 // Defina a altura do navbar conforme necessário
+  const navbarHeight = 80
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
@@ -64,7 +64,7 @@ const Header = () => {
           }
         )}
       >
-        <img className="w-28 ml-1" src={Logo} alt="" />
+        <img className="w-28 ml-1" src={Logo} alt="Logo da empresa Monks" />
         <nav id="nav" className={menuOpen ? "active" : ""}>
           <button
             aria-label={menuOpen ? "Fechar Menu" : "Abrir Menu"}
@@ -116,13 +116,13 @@ const Header = () => {
         </li>
         <div className="flex justify-center" onClick={toggleMenu}>
           <AnchorLink href="#home">
-            <img src={BackIcon} alt="" className="pt-12 pb-6" />
+            <img src={BackIcon} alt="Ímagem de volta à HomePage" className="pt-12 pb-6" />
           </AnchorLink>
         </div>
       </ul>
       <div className="flex absolute w-full">
         <div className="hidden sm:flex md:flex-row md:gap-20 md:items-center md:w-full py-4 container px-6 md:mx-auto text-white font-light text-lg">
-          <img src={Logo} className="hidden md:block w-40 py-2 p-1" alt="" />
+          <img src={Logo} className="hidden md:block w-40 py-2 p-1" alt="Logo da empresa Monks" />
           <AnchorLink href="#quem-somos" className="hover:cursor-pointer">
             <p>Categoria 1</p>
           </AnchorLink>

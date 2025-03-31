@@ -4,7 +4,7 @@ function Forms() {
   return (
     <div id="formulario" className="bg-[#2D2D2D] py-8 md:py-16">
       <div className="flex flex-col md:flex-row md:justify-between items-center justify-center px-6 gap-8 md:gap-16 md:container md:mx-auto">
-        <img src={FooterImage} alt="" className="" />
+        <img src={FooterImage} alt="Imagem para decoração ao lado do formulário" className="" />
         <div className="bg-[#EAE8E4] md:mx-0 p-6 rounded-xl text-[#2D2D2D] ">
           <h2 className="text-3xl md:text-4xl font-semibold mb-1">
             Lorem ipsum dolor sit amet consectetur

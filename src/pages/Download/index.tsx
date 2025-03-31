@@ -16,8 +16,8 @@ function Download() {
             </p>
           </div>
           <div className="flex flex-col gap-3 items-center mt-8 md:mt-0">
-            <img src={ImageAppStore} alt="" className="w-full" />
-            <img src={ImageGooglePlay} alt="" className="w-full" />
+            <img src={ImageAppStore} alt="Imagem para baixar na AppStore" className="w-full" />
+            <img src={ImageGooglePlay} alt="Imagem para baixar na GooglePlay" className="w-full" />
           </div>
         </div>
       </div>

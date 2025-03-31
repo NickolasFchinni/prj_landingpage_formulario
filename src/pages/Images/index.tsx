@@ -15,11 +15,11 @@ function Images() {
               Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing
               faucibus sit scelerisque quis commodo
             </p>
-            <img src={ImageOne} alt="" className="mb-1 md:mb-0" />
+            <img src={ImageOne} alt="Prédios de uma cidade" className="mb-1 md:mb-0" />
           </div>
           <div className="">
-            <img src={ImageTwo} alt="" className="mb-1" />
-            <img src={ImageThree} alt="" />
+            <img src={ImageTwo} alt="Prédios com uma montanha ao fundo" className="mb-1" />
+            <img src={ImageThree} alt="Prédios e um arranhacéu, montanha ao fundo" />
           </div>
         </div>
       </div>
