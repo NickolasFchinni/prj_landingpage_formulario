@@ -6,14 +6,14 @@ function Forms() {
       <div className="flex flex-col md:flex-row md:justify-between items-center justify-center px-6 gap-8 md:gap-16 md:container md:mx-auto">
         <img src={FooterImage} alt="" className="" />
         <div className="bg-[#EAE8E4] md:mx-0 p-6 rounded-xl text-[#2D2D2D] ">
-          <h2 className="text-3xl font-semibold mb-1">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-1">
             Lorem ipsum dolor sit amet consectetur
           </h2>
-          <p className="text-lg font-extralight mb-4">
+          <p className="text-lg md:text-xl font-extralight mb-4">
             Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing
             faucibus sit scelerisque
           </p>
-          <p className="text-lg font-extralight mb-4">
+          <p className="text-lg md:text-xl font-extralight mb-4">
             *Lorem ipsum dolor sit amet consectetur
           </p>
           <form action="submit" className="text-lg space-y-3">
