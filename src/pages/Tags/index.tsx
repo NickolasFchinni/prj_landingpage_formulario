@@ -19,15 +19,15 @@ function Tags() {
 
   return (
     <div className="bg-[#EAE8E4] pt-8 pb-4">
-      <div className="p-6">
-        <h2 className="text-3xl font-semibold mb-1">
+      <div className="p-6 md:container md:mx-auto">
+        <h2 className="text-3xl md:text-5xl font-semibold mb-1 text-[#2D2D2D]">
           Lorem ipsum dolor sit amet consectetur
         </h2>
-        <div className="flex flex-wrap gap-3 justify-center py-6">
+        <div className="flex flex-wrap gap-3 md:gap-6 justify-center py-6 md:px-16 md:mt-3">
         {
           tags.map(tag => (
             <div key={tag.id}>
-              <p className="text-lg font-semibold text-[#7D26C9] px-6 py-2 rounded-full border-[1.5px] border-[#7D26C9]">{tag.name}</p>
+              <p className="text-lg md:text-xl font-semibold text-[#7D26C9] px-6 py-2 rounded-full border-[1.5px] border-[#7D26C9]">{tag.name}</p>
             </div>
           ))
         }

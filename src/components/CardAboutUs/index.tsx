@@ -13,8 +13,8 @@ const CardAboutUs: React.FC<CardAboutUsProps> = ({ image, title, text }) => {
         alt={title}
       />
       <div className="px-4 py-2 text-[#0C111D]">
-        <h3 className="text-lg font-semibold">{title}</h3>
-        <p className="">{text}</p>
+        <h3 className="text-lg md:text-xl font-semibold">{title}</h3>
+        <p className="md:text-lg">{text}</p>
       </div>
     </div>
   )

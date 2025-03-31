@@ -23,8 +23,8 @@ function CardsLast() {
   ]
 
   return (
-    <div className="bg-[#EAE8E4]">
-      <div className="px-6 flex flex-col gap-4">
+    <div className="bg-[#EAE8E4] pb-16">
+      <div className="px-6 flex flex-col md:flex-row gap-4 md:container md:mx-auto">
         {cardContent.map((card) => (
           <CardLastSection
             key={card.id}
