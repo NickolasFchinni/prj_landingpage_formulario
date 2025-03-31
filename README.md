@@ -53,17 +53,17 @@ O projeto estará disponível em **http://localhost:5173**.
 
 ## ✨ Funcionalidades
 
-✅ 📱 Layout responsivo
-✅ 🎨 Design moderno com Tailwind CSS
-✅ 📩 Formulário de contato (frontend apenas, sem backend)
-✅ ⚡ Estrutura otimizada e modular
+- ✅ 📱 Layout responsivo
+- ✅ 🎨 Design moderno com Tailwind CSS
+- ✅ 📩 Formulário de contato (frontend apenas, sem backend)
+- ✅ ⚡ Estrutura otimizada e modular
 
 ## 🎨 Customização
 
-🛠 Para alterar o tema ou cores, edite o arquivo App.css, mais sobre na
+- 🛠 Para alterar o tema ou cores, edite o arquivo App.css, mais sobre na
 documentação do TailwindCSS.
-🖼 Para modificar textos e imagens, edite `src/pages/`, `src/components/` e `src/assets/`
-🧩 Para adicionar novas seções, crie novos componentes em `src/pages/`
+- 🖼 Para modificar textos e imagens, edite `src/pages/`, `src/components/` e `src/assets/`
+- 🧩 Para adicionar novas seções, crie novos componentes em `src/pages/`
 
 ## 📜 Licença
 
